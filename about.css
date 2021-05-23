@@ -1,0 +1,260 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+.collapse ul li a:hover {
+    background-color:orangered ;
+  }
+  .line{
+    height:15px;
+    width:15px;
+}
+.first-nav{
+    background-color:black;
+    padding:30px;
+    padding-left:100px;
+}
+
+
+
+
+.first-div img{
+   
+   height:500px;
+   position:relative;
+}
+.caption{
+    position:absolute;
+    
+  
+font-size: 40px;
+line-height: 65px;
+color:rgb(244, 244, 248);
+
+text-align: center;
+left:500px;
+    top:0;
+    margin-top:300px;
+}
+.caption h1{
+    font-weight:1000;
+}
+.div-2{
+    margin-top:100px;
+}
+.div-2-about h1{
+    margin-left:100px;
+}
+
+.div-2-about img{
+    width:80%;
+    height:80%;
+    margin-left:100px;
+    padding-top:60px;
+
+}
+.div-2-para p{
+    padding:15px;
+    font-weight:600;
+}
+.col-sm-h1{
+    margin-left:100px;
+    
+}
+.div-2-para-exp{
+    padding-top:100px;
+    font-weight:600;
+}
+.div-3{
+    padding-top:100px;
+    margin-left:100px;
+    padding-bottom:200px;
+    
+   
+}
+.mission-img{
+    height:190px;
+    width:260px;
+    z-index:1;
+    
+   
+   
+    
+}
+
+    
+
+.mission-img1{
+    height:50px;
+    
+    left:0;
+    margin-left:30px;
+    margin-top:70px;
+    
+}
+.div-3-img{
+    top:0;
+    margin-top:63px;
+    width:30%;
+    height:190px;
+    background-color:rgb(155, 201, 201,0.7);
+    position: absolute;
+    z-index:2;
+
+}
+.div-3-mission h1{
+    font-size:30px;
+    padding-bottom: 20px;
+    font-weight: 800;;
+    
+}
+.div-3-mission p{
+    margin-top:40px;
+    font-size:18px;
+    font-weight: 500;
+}
+.div-3-mission:hover .div-3-img{
+    width:70%;
+    transition: 0.5s;
+}
+footer{
+   
+    width:100%;
+    height:600px;
+    background:#002e5b ;
+    color:white;
+    left:0;
+    right:0;
+    position: absolute;
+    padding-top:100px;
+   
+}
+
+footer .footer-common{
+    text-align: left;
+    padding:10px;
+}
+footer row{
+
+}
+.footer-links{
+    color:white;
+    
+}
+.link-common{
+    padding:10px;
+   
+}
+.footer-icon{
+    padding-right:10px;
+   
+    
+}
+.footer-icon-common{
+   
+}
+.list-unstyled{
+    text-align: left;
+    margin-left: 10px;
+}
+.list-unstyled span{
+   
+}
+footer a:hover{
+    background-color: #002e5b;
+    text-decoration: none;
+    color:orangered
+}
+
+
+
+
+      
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .first-nav{
+        padding:10px;
+        display: block;
+        left:0;
+        padding-left:100px;
+    }
+
+.first-div img{
+   
+   height:300px;
+   
+}
+.caption{
+    left:0px;
+    margin-left:120px;
+    margin-top:350px;
+   
+    
+    
+
+}
+.caption h1{
+    font-size: 30px !important;
+    
+}
+.div-2-para p{
+    font-size: 15px;
+    padding:0px 50px 0px 50px;
+    display:block;
+
+    
+}
+.div-2-about img{
+
+   margin-left:58px !important;
+}
+.exp{
+    margin-right:100px;
+    margin-left:50px;
+
+}
+.div-2-para-exp{
+    font-size: 15px;
+    padding:0px 55px 0px 55px;
+    
+}
+.div-3-mission p{
+    padding-right:150px;
+}
+.div-3-mission h1{
+    margin-left:70px;
+}
+.management{
+  
+}
+.div-3-mission:hover .div-3-img{
+    width:57%;
+    transition: 0.5s;
+}
+.footer-div1{
+    display: none !important;
+
+}
+.footer-hr{
+    margin-left:10px !important;
+}
+.footer{
+    margin-top:-100px !important;
+    height:1000px !important;
+    width:514px !important;
+    position: relative;
+    
+}
+footer{
+    padding-top:-200px;
+}
+.manage{
+    display:none;
+}
+
+
+
+}

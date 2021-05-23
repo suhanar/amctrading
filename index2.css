@@ -1,0 +1,668 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.collapse ul li a:hover {
+  background-color:orangered ;
+}
+.carousel-caption{
+    top:0;
+    margin-top:200px;
+    width:100%;
+}
+.carousel-caption h3{
+    font-size: 42px;
+    color:black;
+    font-weight: 800;
+
+
+}
+.heading-2{
+   
+   
+    margin-left:100px;
+}
+.heading-1{
+    padding-right:413px;
+}
+.heading-3{
+    width:100%;
+    padding-right:700px;
+
+    
+    
+}
+
+.para-1{
+    color:black;
+     font-size:24px;
+}
+.carousel-name-btn{
+    width:100%;
+    padding-top:70px;
+    
+    padding-left:330px;
+}
+.carousel-name-btn a{
+    
+   
+    font-weight:500;
+    
+    border-radius:10px;
+}
+.carousel-btn1{
+    color:white;
+    background-color:#002e5b;
+    border-radius:10px;
+    font-size:18px;
+    padding:10px 0px 10px 0px;
+    
+   
+}
+.carousel-btn1:hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+.carousel-btn2:hover{
+    background-color: #002e5b;
+    text-decoration: none;
+    color:white
+}
+.carousel-btn2{
+    background-color:orangered;
+    color:#002e5b;
+    margin-left:15px;
+    border-radius:10px;
+    font-size:18px;
+    padding-top:7px;
+    
+   
+}
+.carousel-name-btn a span{
+    padding-left:5px;
+}
+.first-nav{
+    background-color:black;
+    padding:30px;
+    padding-left:100px;
+}
+.line{
+    height:15px;
+    width:15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .first-nav{
+        padding:10px;
+        display: block;
+        left:0;
+        padding-left:100px;
+    }
+    
+    .carousel-caption{
+       top:100px !important; 
+       margin-top:-50px !important;
+    }
+    .carousel-caption h3{
+        font-size: 18px !important;
+      
+    }
+    .heading-1{
+        padding-right:224px !important;
+    }
+    .heading-2{
+        
+        margin-left:-90px !important;
+    }
+    .heading-3{
+        width:100% !important;
+        padding-right:300px !important;
+    
+        
+        
+    }
+    .para-1{
+        font-size: 18px !important;
+    }
+    .carousel-btn1{
+        color:white;
+        background-color:#002e5b;
+        border-radius:10px;
+        font-size:10px !important;
+        
+       
+    }
+    .carousel-btn2{
+        background-color:orangered;
+        color:#002e5b;
+       
+        border-radius:10px;
+        font-size:10px !important;
+       
+        
+       
+    }
+    .carousel-name-btn a{
+    
+        padding:9px !important;
+        font-weight:500;
+        
+        border-radius:10px;
+    }
+    .carousel-name-btn{
+        display:none !important;
+    }
+    .trading{
+        display:none !important;
+    }
+    .carousel-control-prev{
+        display:none !important;
+    }
+    .carousel-control-next{
+        display:none !important;
+    }
+    .about-title{
+        position: relative;
+        font-size: 26px !important;
+        font-weight: 700;
+    }
+    .about{
+        width:100% !important;
+        height:50% !important;
+        
+}
+.about-para{
+    display: inline; 
+}
+.services{
+    padding-left:100px !important;
+}
+.services-h1{
+    font-size: 26px !important;
+    padding-right:100px !important;
+}
+.projects{
+    display: none !important;
+    
+}
+.mobile-div{
+    display:block !important;
+    
+    margin-top:1800px !important;
+    margin-left: 80px !important;
+}
+.mobile-span{
+    font-size: 12px;
+     color:white;
+      
+}
+.mobile-span :hover{
+    margin-right:8px;
+    display:inline-block;
+    transform:rotate(-45deg);
+    position: relative;
+    transition: .5s;
+}
+.mobile-button{
+
+}
+.mobile-project-h4{
+    font-family:monospace;
+    font-size: 15px !important;
+    font-color:#002e5b !important;
+    font-weight: 800 !important;
+}
+.footer-div1{
+    display: none !important;
+
+}
+.footer-hr{
+    margin-left:10px !important;
+}
+.footer{
+    margin-top:200px !important;
+    height:1000px !important;
+    width:514px !important;
+    position: relative;
+    
+}
+.btn-style-one-div{
+    
+    padding-bottom:100px !important;
+}
+.btn-style-one{
+    background-color: orangered !important;
+    color:#002e5b !important;
+    padding:10px !important;
+    border-radius: 50px !important;
+    margin-left:20px !important;
+    font-weight: 600 !important;
+  
+   
+    
+}
+.our-project{
+    padding-bottom: 100px !important;
+}
+.mobile-div{
+    padding-bottom: 100px !important;
+}
+footer{
+    top:0px !important;
+}
+
+
+
+
+
+}
+
+.carousel-multi-item-main{
+    top:1208px;
+}
+
+.footer-hr{
+    background-color:orangered;
+     width:80px; 
+     margin-right:441px;
+}
+
+
+footer{
+   top:3768px;
+    width:100%;
+    height:600px;
+    background:#002e5b ;
+    color:white;
+    left:0;
+    right:0;
+    position: absolute;
+    padding-top:100px;
+    
+   
+}
+
+footer .footer-common{
+    text-align: left;
+    padding:10px;
+}
+footer row{
+
+}
+.footer-links{
+    color:white;
+    
+}
+.link-common{
+    padding:10px;
+   
+}
+.footer-icon{
+    padding-right:10px;
+   
+    
+}
+.footer-icon-common{
+   
+}
+.list-unstyled{
+    text-align: left;
+    margin-left: 10px;
+}
+.list-unstyled span{
+   
+}
+footer a:hover{
+    background-color: #002e5b;
+    text-decoration: none;
+    color:orangered
+}
+
+.mobile-div{
+    display:none;
+}
+
+
+.stretched-link .arrow:hover{
+    margin-right:8px;
+    display:inline-block;
+    transform:rotate(-45deg);
+    position: relative;
+    transition: .5s;
+    
+  }
+  .service .service1 btn{
+
+  }
+  .service .common img{
+      width:254px;
+      height: 224px;
+      float:right;
+  }
+  .services{
+    width:100%;
+    height:100%;
+    background-color: white;
+   
+}
+.service{
+    display:flex;
+}
+.service > div{
+    padding:20px;
+}
+.service{
+    
+    width:100%;
+    height:500px;
+    
+}
+.service1{
+    left:230px;
+}
+.card{
+    background-color: #002e5b;
+    color:white;
+    width:293px;
+}
+.service a{
+    background-color: transparent;
+    color:whitesmoke;
+    font-weight: 900;
+    
+}
+.stretched-link:hover{
+    color:tomato;
+    text-decoration: none;
+    border-color: white;
+}
+.card-title{
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.textWithBlurredBg{
+    width:300px;
+    height:200px;
+    position: relative;
+    overflow: hidden;
+}
+.textWithBlurredBg img{
+    width:100%;
+    height:100%;
+    border-radius:4px;
+    transition: 0.5s all ease-in-out; 
+   
+}
+.textWithBlurredBg:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow: 0 0 16px cyan;
+    transform: scale(1.5);
+}
+.textWithBlurredBg :not(img){
+    position: absolute;
+    top:30%;
+    z-index:1;
+    color:#fff;
+    text-align: center;
+    width:100%;
+    opacity:0;
+    transition: .2s;
+}
+.textWithBlurredBg {
+    top:50%;
+   
+}
+.textWithBlurredBg:hover :not(img){
+    opacity:1;
+}
+.btn .btn1{
+    top:500px;
+}
+.projects .btn2{
+  height: 58px;
+  position: absolute;
+  top: 700px;
+  left: 358px;
+  width: 148px;
+  border-radius: 284px;
+  text-align: center;
+  padding-top: 13px;
+  background-color: coral;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn2:hover span{
+    margin-right:8px;
+    display:inline-block;
+    transform:rotate(-45deg);
+    position: relative;
+    transition: .5s;
+    
+
+}
+
+.carousel-client .carousel-client-row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.controls-top {
+    text-align: center;
+    margin-bottom: 1.88rem;
+}
+.btn-floating{
+    
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 0;
+    background: #4285f4;
+    color:white;
+
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.prev{
+    padding-top:15px;
+}
+.next{
+     padding-left:2px;
+     text-align: center;
+}
+.btn-floating:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: orangered;
+   
+    -webkit-border-radius: 50%;
+    
+}
+
+footer{
+   
+    width:100%;
+    height:600px;
+    background:#002e5b ;
+    color:white;
+    left:0;
+    right:0;
+    position: absolute;
+    padding-top:100px;
+   
+}
+
+footer .footer-common{
+    text-align: left;
+    padding:10px;
+}
+footer row{
+
+}
+.footer-links{
+    color:white;
+    
+}
+.link-common{
+    padding:10px;
+   
+}
+.footer-icon{
+    padding-right:10px;
+   
+    
+}
+.footer-icon-common{
+   
+}
+.list-unstyled{
+    text-align: left;
+    margin-left: 10px;
+}
+.list-unstyled span{
+   
+}
+footer a:hover{
+    background-color: #002e5b;
+    text-decoration: none;
+    color:orangered
+}
+
+
+
+
+      
+    
+     
+    
+      
+      
+    
+    
+
+
+
+    
+
+
+
+
+
+/*@media only screen and (max-width: 600px) {
+    .carousel-btn{
+        display:none !important;
+    }
+    .carousel-name-intro{
+       
+        display:flex !important;
+        flex-wrap: wrap;
+        height:200px !important;
+        align-items: flex-end;
+        
+    }
+    .carousel-name-btn{
+        display:none
+    }
+    .carousel-btn h3{
+        padding-top:120px !important;
+        font-size: 13px !important;
+    }
+    .carousel-name-btn{
+        padding-top:50px !important;
+        padding-right:100px !important;
+        
+        
+        
+    }
+    .carousel-name-btn a{
+        font-size: 10px !important;
+        
+    }
+    .carousel-btn1{
+        padding:5px !important;
+     
+        width:100px !important;
+        margin-bottom: 5px !important;
+       
+    }
+    .carousel-btn2{
+        padding:5px !important;
+       
+        width:100px !important;
+        left:100px !important;
+        
+
+ }*/
+ 
+
+ 
+
+ 
+.about{
+    position:relative;
+    margin-top: 116px;
+    height:340px;
+    animation-duration: 1500ms;
+   
+       
+    width:100%;
+    text-align: center;
+  
+    
+}
+.about-title{
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+}
+.about-para{
+    text-align: center;
+    padding: 30px 200px;
+}
+.btn1{
+    color:#2a2a2a;
+    font-weight:800;
+    font-size:17px;
+    transition: .3s;
+    
+
+
+}
+.btn2:hover span{
+    margin-right:8px;
+    display:inline-block;
+    transform:rotate(-45deg);
+    position: relative;
+    transition: .5s;
+    
+
+}
+.fa-chevron-right{
+    margin-top:15px;
+}
+
+.projects{
+   
+}
+
+
+
+
+
